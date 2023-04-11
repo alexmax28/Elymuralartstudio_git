@@ -19,9 +19,13 @@ body{
 .logo{
   line-height: 1.55em;
   margin-bottom: 18px;
+  width: 100%;
+  max-width:100%;
 }
 .memu{
   margin-top: 50px;
+  margin-right: 100px;
+  width: 100%;
   li{
     // text-align: center;
     padding-left: 50px;
@@ -34,14 +38,45 @@ body{
       }
     }
 }
-
 .icon_state{
   width: 200px;
   margin-top: 30px;
-  // display: flex;
-  // justify-content: space-around;
   padding-left: 50px;
   img{
     width: 30px;
+  }
+}
+
+#space{
+  width: 200px;
+}
+
+
+
+
+
+@media (max-width:1400px) {
+  .logo{
+    line-height: 1.55em;
+    margin-bottom: 18px;
+    width: 80%;
+    max-width:100%;
+  }
+  
+  .memu{
+    margin-top: 50px;
+    margin-right: 100px;
+    width: 100%;
+    li{
+      // text-align: center;
+      padding-left: 50px;
+        a{
+          line-height:2em;
+          font-size: 30px;
+          font-weight: 500;
+          text-decoration:none;
+          color: $h3_color;
+        }
+      }
   }
 }
