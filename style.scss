@@ -1,0 +1,47 @@
+$bk_color: #fdf9f9;
+$h3_color: gray;
+
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/ChenYuluoyan-Thin.ttf') format("truetype");
+  }
+
+body{
+    background-color: #fdf9f9;
+    opacity: 0.6;
+}
+#container{
+  display: flex;
+  // justify-content: flex-end;
+  justify-content:space-around;
+}
+.logo{
+  line-height: 1.55em;
+  margin-bottom: 18px;
+}
+.memu{
+  margin-top: 50px;
+  li{
+    // text-align: center;
+    padding-left: 50px;
+      a{
+        line-height:2em;
+        font-size: 36px;
+        font-weight: 500;
+        text-decoration:none;
+        color: $h3_color;
+      }
+    }
+}
+
+.icon_state{
+  width: 200px;
+  margin-top: 30px;
+  // display: flex;
+  // justify-content: space-around;
+  padding-left: 50px;
+  img{
+    width: 30px;
+  }
+}

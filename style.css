@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/ChenYuluoyan-Thin.ttf") format("truetype");
+}
+body {
+  background-color: #fdf9f9;
+  opacity: 0.6;
+}
+
+#container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  line-height: 1.55em;
+  margin-bottom: 18px;
+}
+
+.memu {
+  margin-top: 50px;
+}
+.memu li {
+  padding-left: 50px;
+}
+.memu li a {
+  line-height: 2em;
+  font-size: 36px;
+  font-weight: 500;
+  text-decoration: none;
+  color: gray;
+}
+
+.icon_state {
+  width: 200px;
+  margin-top: 30px;
+  padding-left: 50px;
+}
+.icon_state img {
+  width: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
